@@ -1,0 +1,17 @@
+input {
+    margin-bottom: 10px;
+
+}
+
+#submit-button {
+    border-radius: 4px;
+    background-color: rgb(191, 196, 191);
+}
+
+#submit-button:hover {
+    opacity: 0.7;
+}
+
+legend {
+    text-transform: uppercase;
+}
