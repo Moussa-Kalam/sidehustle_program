@@ -1,0 +1,63 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h1 {
+    color: red;
+    font-size: x-large;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+input {
+    margin-bottom: 20px;
+    margin-left: 30px;
+    padding: 14px;
+    border-radius: 6px;
+}
+
+label {
+    font-size: larger;
+    font-weight: bold;
+}
+
+#submit-button {
+    border-radius: 4px;
+    color: white;
+    /* border: 3px solid ; */
+    background-color: rgb(7, 28, 146);
+    width: 20%;
+}
+
+#submit-button:hover {
+    opacity: 0.7;
+}
+
+legend {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 16px;
+    color: rgb(7, 28, 146);
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+fieldset {
+    text-decoration: dashed;
+}
+
+@media (max-width: 700px) {
+    body {
+        background-color: rgb(202, 223, 211);
+    }
+
+    h1 {
+        color: rgb(5, 13, 88);
+    }
+
+    legend {
+        color: rgb(238, 109, 221);
+    }
+}
